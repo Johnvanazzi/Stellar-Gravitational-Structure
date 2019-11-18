@@ -1,6 +1,6 @@
 import numpy as np
 import math
-import non_Rotational as nonRot
+import gr_Functions.nonRotational as nonRot
 
 def lenseThirring (r, j, jPrime, omBar, omBarPrime):
   return - (4*j*omBarPrime + (r*omBarPrime + 4*omBar)*jPrime)/(r*j)
