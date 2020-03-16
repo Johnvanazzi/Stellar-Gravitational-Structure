@@ -1,10 +1,9 @@
 initialParameters = {
-  "radius": 0.1,            #cm
-  "mass": 0.01,             #cm
-  "eps": 0.02,              #cm
-  "pressure": 0.001,        #cm
-  "potential": 0.0,         #cm
-  "step": 0.01              #cm
+  "radius": 0.01,           #km
+  "mass": 0.011,             #cm
+  "eps": 2.2e-5,            #g/cm3
+  "potential": 0.0,         #no_unit
+  "step": 0.01              #km
 }
 
 GravToCGSUnits = {

@@ -6,8 +6,5 @@ def mass(radius, energyDensity):
 def pressure(radius, pressure, energyDensity, mass):
 	return -(energyDensity + pressure)*(mass + 4*np.pi*(radius**3)*pressure)/(radius**2-2*mass*radius)
 
-def EoS(p):
-	return 3*p 
-
 def potential(radius, pressure, mass):
 	return (mass+4*np.pi*(radius**3)*pressure)/(radius**2-2*mass*radius)
